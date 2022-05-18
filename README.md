@@ -16,14 +16,16 @@ Les détails plus spécifiques sont les suivants :
   - placement/utilisation d'images haute qualité redimensionnées à l'échelle de la carte en même temps que des tiles à dimension très inférieure, cela permet de donner un rendu au joueur de divers objets en haute définition et donc d'améliorer la qualité graphique du jeu. (Note : ce critère fut déterminant dans le choix de conception du logiciel par rapport à l'utlisation de Tiled qui ne permettait pas l'utilisation simultanée des tiles et images de manière aisée)
   - l'exportation de terrains/cartes adaptées selon une librairie Java personnelle utilisée dans la programmation du jeu, cela permet d'avoir plus de maniabilité sur les modifications.
   - Gestion de lumières et éventuellement simulation de collisions. (pris en compte par Tiled)
-  - L'optimisation matérielle est à travailler.
+  - L'optimisation matérielle est à travailler. (notamment le terrain n'est redessiné que partiellement de manière locale au curseur que l'utilisateur déplace
+sous forme d'un carré, cela permet une grande optimisation au processeur mais peut parfois faire des marques graphiques)
 
-Refaire la roue cependant n'est pas facile et ce projet est un de mes plus gros projets, j'y consacre beaucoup de temps à la recherche d'algorithmes permettant une utilisation plus fluide du programme et de détails facilitant l'utilisateur sans que ce dernier ne le remarque (notamment le découpage intelligent).
+Refaire la roue cependant n'est pas facile et ce projet est un de mes plus gros projets, j'y consacre beaucoup de temps à la recherche d'algorithmes permettant une utilisation plus fluide du programme et de détails facilitant l'utilisateur sans que ce dernier ne le remarque (en particulier le découpage intelligent).
 
 Le logiciel utilise les bibliothèques javax.swing et java.awt.
 J'espère pouvoir finir ce projet d'ici 2023, pour ensuite entamer le projet de librairie graphique Java et de gestion de terrains en accord avec IsomEdit.
 
 Démonstration d'utilisation avec un tileset (fichier image contenant les tiles (blocs)) pris sur internet et un terrain de petites dimensions :
+(cliquez sur le gif pour le revoir au début)
 
 ![alt text](https://github.com/zentsugo/IsomEdit/blob/main/isomedit_usage.gif)
  
