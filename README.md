@@ -34,6 +34,7 @@ Fenêtre par défaut :
 
 ![alt text](https://github.com/zentsugo/IsomEdit/blob/main/isomedit_frame.PNG)
  
+Il n'est pas montré ici mais le logiciel est redimensionnable sur certaines fenêtres, la fenêtre du tileset (en haut à droite) et la fenêtre des calques (en bas à droite) et éventuellement la fenêtre des outils (à gauche).
 
 Exemple de terrain :
 
@@ -49,7 +50,9 @@ Création d'un nouveau tileset :
 
  ![alt text](https://github.com/zentsugo/IsomEdit/blob/main/isomedit_new_tileset.PNG)
  
- 
+La création d'un tileset permet en partant d'une image contenant les tiles, textures, un découpage manuel en rentrant les dimensions d'une tile dans la fenêtre par l'utilisateur et d'un placement spécifique des tiles sur l'image ou un découpage automatique (en développement) qui est le dynamic tileset et se base sur une étude de l'image (tileset) fournie et cherche à découper automatiquement de manière intelligente les textures en les séparant selon un certain espace entre elles.
+L'utilisation d'une couleur de fond (background color) propre à l'utilisateur sur son tileset pour fond transparent est également personnalisable.
+
 Import de terrain, tileset :
 
  ![alt text](https://github.com/zentsugo/IsomEdit/blob/main/isomedit_import.PNG)
