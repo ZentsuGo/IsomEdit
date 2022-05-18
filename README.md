@@ -22,3 +22,32 @@ Refaire la roue cependant n'est pas facile et ce projet est un de mes plus gros 
 
 Le logiciel utilise les bibliothèques javax.swing et java.awt.
 J'espère pouvoir finir ce projet d'ici 2023, pour ensuite entamer le projet de librairie graphique Java et de gestion de terrains en accord avec IsomEdit.
+
+Démonstration d'utilisation avec un tileset (fichier image contenant les tiles (blocs)) pris sur internet et un terrain de petites dimensions :
+
+![alt text](https://github.com/zentsugo/IsomEdit/blob/main/isomedit_usage.gif)
+ 
+ 
+Fenêtre par défaut :
+
+![alt text](https://github.com/zentsugo/IsomEdit/blob/main/isomedit_frame.PNG)
+ 
+
+Exemple de terrain :
+
+ ![alt text](https://github.com/zentsugo/IsomEdit/blob/main/isomedit_example.PNG)
+ 
+ 
+Création d'un nouveau terrain :
+
+ ![alt text](https://github.com/zentsugo/IsomEdit/blob/main/isomedit_new_map.PNG)
+ 
+
+Création d'un nouveau tileset :
+
+ ![alt text](https://github.com/zentsugo/IsomEdit/blob/main/isomedit_new_tileset.PNG)
+ 
+ 
+Import de terrain, tileset :
+
+ ![alt text](https://github.com/zentsugo/IsomEdit/blob/main/isomedit_import.PNG)
