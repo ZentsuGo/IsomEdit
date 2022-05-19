@@ -56,3 +56,10 @@ L'utilisation d'une couleur de fond (background color) propre à l'utilisateur s
 Import de terrain, tileset :
 
  ![alt text](https://github.com/zentsugo/IsomEdit/blob/main/isomedit_import.PNG)
+ 
+ Information bonus :
+ 
+ IsomEdit avait pour but initialement de construire des cartes isométriques en 2D mais aussi des cartes 2D plateformeurs, notamment sur mon projet de jeu
+ qui n'a pas encore abouti en raison des cours, le projet Unexpected Ambiguity dont voici une capture d'écran afin de teaser la version alpha du jeu :
+ 
+![alt text](https://github.com/zentsugo/IsomEdit/blob/main/unexpectedambiguity.PNG)
